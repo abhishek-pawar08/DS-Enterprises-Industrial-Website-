@@ -1,0 +1,47 @@
+.product-card,
+.feature-card{
+    transition:0.4s;
+}
+
+.product-card:hover,
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.primary-btn,
+.secondary-btn,
+.quote-btn{
+    transition:0.3s;
+}
+
+.primary-btn:hover{
+    background:#0B1F4D;
+}
+
+.secondary-btn:hover{
+    background:#1E5EFF;
+    color:#fff;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
+}
+
+.hero-right img{
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
